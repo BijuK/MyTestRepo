@@ -14,4 +14,4 @@ jobs:
       - name: BijuBuild
         run: dotnet build --no-restore
       - name: BijuTest2
-        run: dotnet test ./MyTestRepo/MyTestRepo/ConsoleApp1.sln --no-restore  --no-restore --collect:"XPlat Code Coverage" --logger trx  --results-directory ./test-results
+        run: dotnet test /home/runner/work/MyTestRepo/MyTestRepo/ConsoleApp1.sln --no-restore  --no-restore --collect:"XPlat Code Coverage" --logger trx  --results-directory ./test-results
