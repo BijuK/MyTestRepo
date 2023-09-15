@@ -10,6 +10,8 @@ Console.WriteLine(bijuXyz);
 var setting = new AppSetting();
 
 
+
+
 Console.WriteLine("Hello, World!");
 public class AppSetting 
 {
