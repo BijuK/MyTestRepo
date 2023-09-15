@@ -320,7 +320,7 @@ dotnet_style_allow_multiple_blank_lines_experimental = false
 dotnet_diagnostic.IDE2000.severity = warning
 
 # cs8618: non-nullable field must contain a non-null value when exiting constructor. consider declaring as nullable.
-dotnet_diagnostic.cs8618.severity = none
+dotnet_diagnostic.cs8618.severity = warning
 
 
 [{eng/tools/**.cs,**/{test,testassets,samples,Samples,perf,benchmarkapps,scripts,stress}/**.cs,src/Hosting/Server.IntegrationTesting/**.cs,src/Servers/IIS/IntegrationTesting.IIS/**.cs,src/Shared/Http2cat/**.cs,src/Testing/**.cs}]
