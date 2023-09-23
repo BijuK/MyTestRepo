@@ -27,6 +27,12 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
+- task: CopyPublishBuildArtifacts@1
+      inputs:
+        Contents: '$(Build.ArtifactStagingDirectory)'
+        ArtifactName: 'Biju'
+        ArtifactType: 'Container'
+
 - task: VSTest@2
   inputs:
     platform: '$(buildPlatform)'
