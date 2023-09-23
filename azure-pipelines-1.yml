@@ -28,7 +28,7 @@ steps:
     configuration: '$(buildConfiguration)'
 
 - task: CopyPublishBuildArtifacts@1
-      inputs:
+  inputs:
         Contents: '$(Build.ArtifactStagingDirectory)'
         ArtifactName: 'Biju'
         ArtifactType: 'Container'
