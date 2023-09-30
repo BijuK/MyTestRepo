@@ -23,5 +23,7 @@ private string bi_ServerlChanges2 = "12223";
 
         private string biju_localChanges = "12223";
 
+        private string biju_localChanges2 = "12223";
+
     }
 }
