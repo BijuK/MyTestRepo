@@ -17,7 +17,7 @@ namespace ConsoleApp1
         
         private string bi_ServerlChanges = "12223";
 
-private string bi_ServerlChanges2 = "12223";
+private string bi_ServerlChanges5 = "12223";
 
 
 
