@@ -14,5 +14,8 @@ namespace ConsoleApp1
 
         public string Description;
 
+        
+        private string bi_ServerlChanges = "12223";
+
     }
 }
