@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,11 +8,11 @@ namespace ConsoleApp1
 {
     public record Product
     {
-        readonly string Name;
+        public string Name;
 
+        private string ddddddddd = "test123";
 
-
-        readonly string Description;
+        public string Description;
 
     }
 }
