@@ -17,5 +17,9 @@ namespace ConsoleApp1
         
         private string bi_ServerlChanges = "12223";
 
+
+
+        private string biju_localChanges = "12223";
+
     }
 }
