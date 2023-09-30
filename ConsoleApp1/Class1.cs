@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         readonly string Name;
 
-
+        private  string biju ="12223";
 
         readonly string Description;
 
